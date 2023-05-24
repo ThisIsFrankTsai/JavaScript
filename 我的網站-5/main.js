@@ -1,5 +1,4 @@
 const user = {
-    //key:value
     name: "Frank",
     age: 30,
     title: "RD",
@@ -12,6 +11,7 @@ const user = {
 console.log("user", user);
 console.log(user.name);
 console.log(user['age']);
+console.log(user.address);
 
 const x = "name";
 console.log(user[x]);
@@ -29,3 +29,4 @@ console.log(user.title);
 user.age += 1;
 console.log(user.age); //新增
 user.email = "Abee@gmail.com"
+console.log(user); 
